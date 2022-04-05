@@ -26,7 +26,9 @@ dependencies {
     implementation("javax.annotation:javax.annotation-api")
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut.discovery:micronaut-discovery-client")
+    implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix")
     runtimeOnly("ch.qos.logback:logback-classic")
+
 }
 
 
